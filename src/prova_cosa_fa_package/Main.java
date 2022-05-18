@@ -1,3 +1,5 @@
+package prova_cosa_fa_package;
+
 import java.sql.SQLOutput;
 
 public class Main {
