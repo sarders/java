@@ -1,6 +1,6 @@
 package hello_world;
 
-public class Main {
+public class Helloworld {
     /*
     *   public: is an access modifier.
     *   static: we have to jave static for java to find our mathod.

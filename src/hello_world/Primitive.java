@@ -1,4 +1,4 @@
-package variabili;
+package hello_world;
 
 /**
  *
@@ -10,29 +10,25 @@ package variabili;
  *   A: Ogni primitivo in java ha il suo Wrapper class.
  *
  *   Le 8 primitive di java:
- *       Topo        n.biy        min         |           max         |       Wrapper Class
+ *       Topo        n.biy        min         |           max         |         Wrapper Class
  *   ------------------------------------------------------------------------------------------
- *       boolean     1 bit       1                      1                   Boolean
+ *       boolean     1 bit       1                      1                       Boolean
  *
- *       byte        8 bit      -128                    127                 Byte
- *       short       16 bit     -32768                  32767
- *       int         32 bit     -2147483648             2147483647          Intheger
- *       long        64 bit     -9223372036854775808    9223372036854775807 Long
+ *       byte        8 bit      -128                    127                     Byte
+ *       short       16 bit     -32768                  32767                   Short
+ *       int         32 bit     -2147483648             2147483647              Intheger
+ *       long        64 bit     -9223372036854775808    9223372036854775807     Long
  *
  *       float       32 bit
  *       dauble      64 bit
  *
  *       char        16 bit
  *
-**/
+ **/
 
-public class main {
-    /**
-     * il metodo main dove parte il tutto
-     */
+public class Primitive {
 
     public static void main(String[] args){
-
 
         /**********************************************************
          *  Byte
@@ -102,14 +98,37 @@ public class main {
         /**********************************************************
          *  Long
          **********************************************************/
+        /**
+         *  Nel secondo caso viene restituito in errore inquanto non ho messo la "L" finale
+         *  long long1 = 2_147_483_647;  -> viene visto come un int, perche è nell'insieme int.
+         *  long long1 = 2_147_483_648;  -> corretto -> long long1 = 2_147_483_648L;
+         */
 
-        long provaAssengazionelong = 100000L;
+        long provaAssengazionelong = 9_223_372_036_854_775_807L;
         System.out.println("provaAssengazionelong = " + provaAssengazionelong);
 
-        long maxLong = Long.MAX_VALUE;
         long minLong = Long.MIN_VALUE;
-        System.out.println("Long.MAX_VALUE =" + maxLong);
+        long maxLong = Long.MAX_VALUE;
         System.out.println("Long.MIN_VALUE; =" + minLong);
+        System.out.println("Long.MAX_VALUE =" + maxLong);
+
+
+
+        /**********************************************************
+         *  Float
+         **********************************************************/
+
+        float minFloat = Float.MIN_VALUE;
+        float maxFloat = Float.MAX_VALUE;
+
+        System.out.println("Float.MIN_VALUE = " + minFloat);
+        System.out.println("Float.MAX_VALUE = " + maxFloat);
+
+        /**********************************************************
+         *  Dauble
+         **********************************************************/
+
+
 
     }
 
