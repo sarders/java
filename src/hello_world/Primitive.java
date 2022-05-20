@@ -1,5 +1,7 @@
 package hello_world;
 
+import com.sun.jdi.DoubleValue;
+
 /**
  *
  *   Titolo: vediamo le primitive.
@@ -19,8 +21,8 @@ package hello_world;
  *       int         32 bit     -2147483648             2147483647              Intheger
  *       long        64 bit     -9223372036854775808    9223372036854775807     Long
  *
- *       float       32 bit
- *       dauble      64 bit
+ *       float       32 bit     1.4E-45                 3.4028235E38            Float
+ *       dauble      64 bit     4.9E-324                1.7976931348623157E308  Double
  *
  *       char        16 bit
  *
@@ -117,17 +119,64 @@ public class Primitive {
         /**********************************************************
          *  Float
          **********************************************************/
+        /**
+         * Float è un single precision number.
+         */
+        float myFlot = 4.45F;
+        /**
+         * Di default 4.55 è visto come un dauble.
+         */
+        float textflot = (float)4.55;
+
 
         float minFloat = Float.MIN_VALUE;
         float maxFloat = Float.MAX_VALUE;
-
         System.out.println("Float.MIN_VALUE = " + minFloat);
         System.out.println("Float.MAX_VALUE = " + maxFloat);
+
 
         /**********************************************************
          *  Dauble
          **********************************************************/
+        /**
+         * Dauble è Int sono accettate come default rispettivamente per numeri con la virgola e numeri interi.
+         * Double è un double precision number.
+         */
+        double myDouble = 5.55;
+        /**
+         * Non non necessario il cat perche per i numeri con la virgola double è il default.
+         */
+        double testDouble = 5.55F;
 
+        double minDouble = Double.MIN_VALUE;
+        double maxDouble = Double.MAX_VALUE;
+
+        System.out.println("Double.MIN_VALUE =" + Double.MIN_VALUE);
+        System.out.println("Double.MAX_VALUE = "+ Double.MAX_VALUE);
+
+        /**********************************************************
+         *  Char
+         **********************************************************/
+        /**
+         * Char usa gli unicode charecter: https://unicode-table.com/en/
+         * E puo acrchiviare solo un carattere
+         */
+        char myChar = 'D';
+        /**
+         * Anche questa scrittura equivale ad scrivere D.
+         * In questo caso si sta utilizzando l'unicode.
+         */
+        char myUnicode = '\u0044';
+        System.out.println(myChar);
+        System.out.println(myUnicode);
+
+
+        /**********************************************************
+         *  Boolean
+         **********************************************************/
+
+        boolean myTrueBooleanValue = Boolean.TRUE;
+        boolean myFalseBooleanValue = Boolean.FALSE;
 
 
     }

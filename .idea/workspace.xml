@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6d80e0-8bf2-4c0a-ba5a-eae03dbf5f6d" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/hello_world/primitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hello_world/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hello_world/Operators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variabili/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello_world/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello_world/Primitive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +44,49 @@
     "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.primitive">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Operators">
+    <configuration name="Helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello_world.Helloworld" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_world.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello_world.Main" />
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello_world.Operators" />
       <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello_world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello_world.Test" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello_world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_world.Primitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello_world.Primitive" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello_world.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,39 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="primitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello_world.primitive" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello_world.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello_world.test" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello_world.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.primitive" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.hello_world.Primitive" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.hello_world.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +129,7 @@
       <workItem from="1652907715380" duration="3355000" />
       <workItem from="1652911274917" duration="517000" />
       <workItem from="1652912430228" duration="768000" />
-      <workItem from="1652943377295" duration="15820000" />
+      <workItem from="1652943377295" duration="22902000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1652912693468</created>
@@ -133,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652912693468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1652991728086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652991728086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1652991736317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652991736317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
